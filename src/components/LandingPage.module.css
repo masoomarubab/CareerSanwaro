@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.landingPage{
+    background: #5286da;
+    height: 100vh;
+}

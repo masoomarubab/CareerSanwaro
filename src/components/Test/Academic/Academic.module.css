@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body {
+    align-items: center;
+    display:block;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  
+  }
+  
+  .formpage {
+    height: 80%;
+    padding: 20px;
+    width: 60%;
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: auto;
+  }
+  
+  .title {
+    color: #9b59b6;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 25px;
+    text-align: center;
+  }
+  
+  .subtitle 
+    {
+    color: black;
+    font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+  }
+  .question {
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: 2px;
+  
+  }
+  .choice {
+    border-radius: 12px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 18px;
+    padding: 4px 20px 0;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .inputcontainer {
+    height: 50px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .ic1 {
+    margin-top: 40px;
+  }
+  
+  .ic2 {
+    margin-top: 30px;
+  }
+  
+  .input {
+    background-color: white;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: black;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 20px;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 1.1rem;
+  }
+ 
+  
+  .placeholder {
+    color: #65657b;
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+    margin: 1.1rem;
+  }
+
+  
+  .input:focus ~ .placeholder,
+  .input:not(:placeholder-shown) ~ .placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+  }
+  
+  .input:not(:placeholder-shown) ~ .placeholder {
+    color: #808097;
+  }
+  
+  .input:focus ~ .placeholder {
+    color: #9b59b6;
+  }
+  
+  .nextBtn{
+    margin: 2.1rem 20px 20px 20px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px 25px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.nextBtnLink{
+    color: white;
+    text-decoration: none;
+}
+  

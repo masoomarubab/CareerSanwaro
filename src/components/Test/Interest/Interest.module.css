@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+  align-items: center;
+  display:block;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+
+} 
+.formpage {
+  background-color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 900px;
+  padding: 20px;
+  width: 800px;
+}
+.title {
+  color: #9b59b6;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 25px;
+  text-align: center;
+}
+.subtitle {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.question {
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 18px;
+  letter-spacing: 2px;
+
+}
+.Skills {
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.choice {
+  border-radius: 12px;
+  border: 0;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  color: black;
+  font-size: 18px;
+  padding: 4px 20px 0;
+  width: 100%;
+  margin-top: 10px;
+}
